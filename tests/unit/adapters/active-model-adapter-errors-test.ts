@@ -8,7 +8,7 @@ let pretender: Pretender;
 import Model, { attr } from '@ember-data/model';
 import ActiveModelAdapter, {
   ActiveModelSerializer,
-} from 'active-model-adapter';
+} from '@jebbit/active-model-adapter';
 import AdapterError from '@ember-data/adapter/error';
 
 class Book extends Model {

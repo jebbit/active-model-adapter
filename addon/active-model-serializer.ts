@@ -6,7 +6,7 @@ import { classify, decamelize, camelize, underscore } from '@ember/string';
 import { inject as service } from '@ember/service';
 import { dasherize } from '@ember/string';
 import { isNone } from '@ember/utils';
-import { AnyObject } from 'active-model-adapter';
+import { AnyObject } from '@jebbit/active-model-adapter';
 // eslint-disable-next-line ember/use-ember-data-rfc-395-imports
 import DS from 'ember-data';
 // eslint-disable-next-line ember/use-ember-data-rfc-395-imports
