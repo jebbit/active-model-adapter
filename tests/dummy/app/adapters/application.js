@@ -1,3 +1,3 @@
-import { ActiveModelAdapter } from 'active-model-adapter';
+import { ActiveModelAdapter } from '@jebbit/active-model-adapter';
 
 export default class Application extends ActiveModelAdapter {}

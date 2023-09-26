@@ -1,4 +1,4 @@
 export {
   default,
   initialize,
-} from 'active-model-adapter/initializers/active-model-adapter';
+} from '@jebbit/active-model-adapter/initializers/active-model-adapter';
