@@ -1,13 +1,14 @@
 {
   "name": "@jebbit/active-model-adapter",
   "version": "4.0.2",
-  "name": "@jebbit/active-model-adapter",
-  "version": "4.0.2",
   "description": "Adapters and Serializers for Rails's ActiveModel::Serializers",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "https://github.com/adopted-ember-addons/active-model-adapter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jebbit/active-model-adapter.git"
+  },
   "license": "MIT",
   "author": "",
   "directories": {
