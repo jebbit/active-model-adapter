@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { ActiveModelAdapter } from 'active-model-adapter';
+import { ActiveModelAdapter } from '@jebbit/active-model-adapter';
 import { TestContext } from 'ember-test-helpers';
 import AdapterError from '@ember-data/adapter/error';
 import Model from '@ember-data/model';
@@ -14,7 +14,7 @@ declare module 'ember-data/types/registries/model' {
   export default interface ModelRegistry {
     superUser: SuperUser;
     'super-user': SuperUser; // << Make TS Happy
-    super_user: SuperUser;   // << Make TS Happy
+    super_user: SuperUser; // << Make TS Happy
   }
 }
 
