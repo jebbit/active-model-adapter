@@ -1,11 +1,13 @@
 {
   "name": "@jebbit/active-model-adapter",
   "version": "4.0.2",
+  "name": "@jebbit/active-model-adapter",
+  "version": "4.0.2",
   "description": "Adapters and Serializers for Rails's ActiveModel::Serializers",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "https://github.com/jebbit/active-model-adapter",
+  "repository": "https://github.com/adopted-ember-addons/active-model-adapter",
   "license": "MIT",
   "author": "",
   "directories": {
@@ -37,6 +39,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
+    "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^2.6.0",
     "@embroider/test-setup": "^1.0.0",
     "@glimmer/component": "^1.0.4",
@@ -110,7 +113,7 @@
     "node": "12.* || 14.* || >= 16"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com"
   },
   "ember": {
     "edition": "octane"

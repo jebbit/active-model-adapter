@@ -1,3 +1,3 @@
-import { ActiveModelSerializer } from 'active-model-adapter';
+import { ActiveModelSerializer } from '@jebbit/active-model-adapter';
 
 export default class Application extends ActiveModelSerializer {}

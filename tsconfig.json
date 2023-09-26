@@ -25,8 +25,8 @@
     "paths": {
       "dummy/tests/*": ["tests/*"],
       "dummy/*": ["tests/dummy/app/*", "app/*"],
-      "active-model-adapter": ["addon"],
-      "active-model-adapter/*": ["addon/*"],
+      "@jebbit/active-model-adapter": ["addon"],
+      "@jebbit/active-model-adapter/*": ["addon/*"],
       "active-model-adapter/test-support": ["addon-test-support"],
       "active-model-adapter/test-support/*": ["addon-test-support/*"],
       "*": ["types/*"]
