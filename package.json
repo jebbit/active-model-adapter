@@ -5,7 +5,10 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "https://github.com/adopted-ember-addons/active-model-adapter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jebbit/active-model-adapter.git"
+  },
   "license": "MIT",
   "author": "",
   "directories": {
@@ -110,7 +113,7 @@
     "node": "12.* || 14.* || >= 16"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com"
   },
   "ember": {
     "edition": "octane"
