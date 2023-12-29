@@ -1,6 +1,6 @@
 {
   "name": "@jebbit/active-model-adapter",
-  "version": "4.0.3",
+  "version": "4.0.5",
   "description": "Adapters and Serializers for Rails's ActiveModel::Serializers",
   "keywords": [
     "ember-addon"
@@ -31,16 +31,15 @@
     "postpack": "ember ts:clean"
   },
   "dependencies": {
-    "ember-auto-import": "^2.4.0",
+    "ember-auto-import": "^2.6.3",
     "ember-cli-babel": "^7.26.10",
-    "ember-cli-htmlbars": "^5.7.2",
+    "ember-cli-htmlbars": "^6.3.0",
     "ember-cli-typescript": "^4.1.0",
     "ember-inflector": "^3.0.0 || ^4.0.0",
-    "@ember/string": "^3.0.0"
+    "@ember/string": "^3.1.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
-    "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^2.6.0",
     "@embroider/test-setup": "^1.0.0",
     "@glimmer/component": "^1.0.4",
