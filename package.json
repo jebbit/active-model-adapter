@@ -1,6 +1,6 @@
 {
   "name": "@jebbit/active-model-adapter",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "description": "Adapters and Serializers for Rails's ActiveModel::Serializers",
   "keywords": [
     "ember-addon"
